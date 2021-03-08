@@ -1,0 +1,99 @@
+// global colors
+// $orange: #F69800;
+// $yellow: #F5FF3B;
+// $lightblue: #84A9C0;
+// $purple: #6A66A3;
+// $darkblue: #102E4A;
+
+footer {
+    margin-top: 40px;
+    line-height: 1.2;
+
+    .mainFooter {
+        background-color: $darkblue;
+        color: white;
+        padding: 10px 15px 20px 15px;
+
+        .wrapper1200 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 40px;
+            font-size: 18px;
+
+            h3 {
+                font-weight: bold;
+                font-size: 20px;
+                padding: 10px 0;
+            }
+    
+            .contactUs {
+                a {
+                    color: white;
+                }
+            }
+            .newsletter {
+                form {
+                    input {
+                        width: 100%;
+                        margin: 3px 0;
+                        padding: 5px;
+                        border-radius: 5px;
+                        border: 1px solid black;
+                    }
+                }
+                p {
+                    margin-bottom: 10px;
+                }
+            }
+            .why {
+    
+            }
+        }
+    }
+
+    .footerIcons {
+        text-align: center;
+        background-color: $lightblue;
+        padding: 10px 0;
+
+        .socialIcon {
+            max-width: 50px;
+            max-height: 50px;
+            margin: 0 5px;
+            background-color: $darkblue;
+            border-radius: 11px;
+            padding: 7px;
+            fill: white;
+            cursor: pointer;
+        }
+        .socialIcon:hover {
+            background-color: lighten($darkblue, 10%);
+        }
+    }
+
+    .copyrightArea {
+        text-align: center;
+
+        p { 
+            padding: 20px; 
+
+            a { color: black; }
+        }
+    }
+}
+
+// screen sizes
+// $medium: 1007;
+// $small: 641;
+
+@media only screen and (max-width: $medium) {
+    footer .mainFooter .wrapper1200 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: $small) {
+    footer .mainFooter .wrapper1200 {
+        grid-template-columns: 1fr;
+    }
+}
+

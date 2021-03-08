@@ -1,0 +1,172 @@
+// global colors
+// $orange: #F69800;
+// $yellow: #F5FF3B;
+// $lightblue: #84A9C0;
+// $purple: #6A66A3;
+// $darkblue: #102E4A;
+
+nav {
+    background-color: $darkblue;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    height: 50px;
+    
+    .wrapper1200 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        .ul {
+            display: flex;
+            height: 100%;
+            position: relative;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            .li { 
+                padding: 12px;
+            }
+            .li:hover { 
+                background-color: lighten($darkblue, 20%); 
+                cursor: pointer;
+            }
+            .dropdown {
+                display: grid;
+                grid-template-columns: 1fr;
+                position: relative;
+                width: 90.95px;
+                height: 100%;
+                margin: 0;
+                .li { height: 100%; }
+
+                .subNav {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    z-index: 99999;
+                    position: absolute;
+                    top: 50px;
+                    //left: -12px;
+                    width: 91px;
+
+                    .li {
+                        display: none;
+                        position: relative;
+                        z-index: 99999;
+                        height: 50px;
+                        background-color: $lightblue;
+                    }
+                    .li:hover {
+                        background-color: lightblue;
+                    }
+                }
+            }
+            .dropdown:hover div .li {
+                display: block;
+            }
+        }
+
+        .navSearch {
+            padding-bottom: 3px;
+            margin-right: 10px;
+
+            input.searchBar {
+                border-radius: 3px;
+                border: none;
+                height: 37px;
+                padding: 5px;
+                margin: 0;
+            }
+            button {
+                height: 37px;
+                width: 37px;
+                border: none;
+                top: 3px;
+                position: relative;
+            }
+        }
+    }
+}
+.normalNav {
+    display: block;
+}
+.mobileNav {
+    display: none;
+    grid-template-columns: 110px 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+    .open {
+        display: flex;
+        width: auto; 
+        cursor: pointer;
+
+        svg {
+            max-width: 30px;
+            fill: white;
+        }
+        h3 {
+            color: white;
+            padding: 2px;
+            padding-left: 5px;
+        }
+    }
+
+    .navSearch {
+        text-align: right;
+        padding-bottom: 3px;
+        min-width: 182px;
+
+        input.searchBar {
+            border-radius: 3px;
+            border: none;
+            height: 37px;
+            padding: 5px;
+            margin: 0;
+        }
+        button {
+            height: 37px;
+            width: 37px;
+            border: none;
+            top: 4px;
+            position: relative;
+        }
+    }
+}
+.hiddenNav {
+    background-color: $darkblue;
+    color: white;
+    font-size: 23px;
+    display: none;
+
+    .ul .li {
+        padding: 12px;
+        cursor: pointer;
+        border-top: 1px solid rgb(63, 63, 66);
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+    .ul .li:hover {
+        background-color: $lightblue;
+    }
+}
+
+// screen sizes
+// $medium: 1007;
+// $small: 641;
+
+@media only screen and (max-width: $small) {
+    .normalNav {
+        display: none;
+    }
+    .mobileNav {
+        display: grid;
+    }
+}

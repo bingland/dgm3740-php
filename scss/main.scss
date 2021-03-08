@@ -1,0 +1,19 @@
+// global colors
+$orange: #F69800;
+$yellow: #F5FF3B;
+$lightblue: #84A9C0;
+$purple: #6A66A3;
+$darkblue: #102E4A;
+// screen sizes
+$medium: 1007px;
+$small: 641px;
+
+@import "reset";
+@import "../slick/slick-theme";
+@import "../slick/slick";
+@import "components/global";
+@import "components/slider";
+@import "components/header";
+@import "components/nav";
+@import "components/articleArea";
+@import "components/footer";

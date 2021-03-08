@@ -1,0 +1,44 @@
+// global colors
+// $orange: #F69800;
+// $yellow: #F5FF3B;
+// $lightblue: #84A9C0;
+// $purple: #6A66A3;
+// $darkblue: #102E4A;
+
+header {
+    background-color: white;
+
+    .wrapper1200 {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        .logo {
+            margin: 10px;
+            img {
+                width: 120px;
+            }
+        }
+        div.phone {
+            font-size: 25px;
+            font-weight: bold;
+            margin: 10px;
+            
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// screen sizes
+// $medium: 1007;
+// $small: 641;
+
+@media only screen and (max-width: $medium) {
+    header {
+        
+    }
+}

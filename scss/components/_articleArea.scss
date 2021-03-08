@@ -1,0 +1,96 @@
+// global colors
+// $orange: #F69800;
+// $yellow: #F5FF3B;
+// $lightblue: #84A9C0;
+// $purple: #6A66A3;
+// $darkblue: #102E4A;
+
+main.articleArea {
+    padding: 0 15px;
+
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        padding: 10px 0;
+    }
+
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+
+        .articleBackground {
+            text-decoration: none;
+            color: black;
+            background-color: $lightblue;
+            background-position: center top;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            .article {
+                height: 280px;
+                background-color: rgba(173, 216, 230, 0.25);
+                display: grid;
+                align-content: end;
+    
+                .desc {
+                    padding: 5px;
+                    margin-bottom: 5px;
+                    font-style: italic;
+                    text-align: center;
+                    font-weight: bold;
+                    color: white;
+                }
+                .dateBox {
+                    padding: 8px;
+                    background-color: rgba(16, 46, 74, 0.75);
+        
+                    .date {
+                        color: white;
+                    }
+                }
+            }
+            .article:hover {
+                transition: background-color 0.3s ease;
+                background-color: rgba(0, 0, 0, 0);
+            }
+        }
+        .articleBackground:nth-child(1) {
+            background-image: url('../../images/content/teasers/teaser1.jpg');
+        }
+        .articleBackground:nth-child(2) {
+            background-image: url('../../images/content/teasers/teaser2.jpg');
+        }
+        .articleBackground:nth-child(3) {
+            background-image: url('../../images/content/teasers/teaser3.jpg');
+        }
+        .articleBackground:nth-child(4) {
+            background-image: url('../../images/content/teasers/teaser4.jpg');
+        }
+    }
+    
+}
+
+// screen sizes
+// $medium: 1007;
+// $small: 641;
+
+@media only screen and (max-width: $medium) {
+    main.articleArea .articles {
+        grid-template-columns: repeat(3, 1fr);
+
+        .articleBackground .article {
+            height: 240px;
+        }
+    }
+}
+
+@media only screen and (max-width: $small) {
+    main.articleArea .articles {
+        grid-template-columns: repeat(2, 1fr);
+
+        .articleBackground .article {
+            height: 220px;
+        }
+    }
+}
