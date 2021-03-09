@@ -1,0 +1,49 @@
+// global colors
+// $orange: #F69800;
+// $yellow: #F5FF3B;
+// $lightblue: #84A9C0;
+// $purple: #6A66A3;
+// $darkblue: #102E4A;
+
+.agent {
+    padding: 10px;
+
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .info {
+        line-height: 1.3;
+
+        img {
+            float: right;
+            border-radius: 5px;
+            padding: 0 0 10px 10px;
+        }
+
+        h4 {
+            font-weight: bold;
+            font-size: 22px;
+            margin-top: 15px;
+        }
+        p {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+    }
+}
+
+// screen sizes
+// $medium: 1007;
+// $small: 641;
+
+@media only screen and (max-width: $small) {
+    .agent .info img {
+        float: none;
+        width: 100%;
+        margin-top: 15px;
+        padding: 0;
+    }
+}

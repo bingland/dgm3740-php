@@ -1,12 +1,12 @@
 <?php $ptitle='Cabot Cruises - Cruises'; include '_header.php'; ?>
 
-<div class="wrapper1200">
+<div class="wrapper1200 cruisespage">
     <h2>Cruises</h2>
 
     <div class="cruises">
         <div class="cruise">
             <div class="imageContainer">
-                <img src="https://via.placeholder.com/300x180">
+                <img src="https://via.placeholder.com/300x180" alt="cruise image">
             </div>
             <div class="content">
                 <h4>Norwegian Cruislines from $499</h4>
@@ -18,7 +18,7 @@
         </div>
         <div class="cruise">
             <div class="imageContainer">
-                <img src="https://via.placeholder.com/300x180">
+                <img src="https://via.placeholder.com/300x180" alt="cruise image">
             </div>
             <div class="content">
                 <h4>Royal Carribean International from $399</h4>
@@ -30,7 +30,7 @@
         </div>
         <div class="cruise">
             <div class="imageContainer">
-                <img src="https://via.placeholder.com/300x180">
+                <img src="https://via.placeholder.com/300x180" alt="cruise image">
             </div>
             <div class="content">
                 <h4>Carnival Cruises from $299</h4>
@@ -42,7 +42,7 @@
         </div>
         <div class="cruise">
             <div class="imageContainer">
-                <img src="https://via.placeholder.com/300x180">
+                <img src="https://via.placeholder.com/300x180" alt="cruise image">
             </div>
             <div class="content">
                 <h4>Princess Cruises from $299</h4>

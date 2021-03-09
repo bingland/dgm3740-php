@@ -321,7 +321,7 @@ nav {
           z-index: 99999;
           position: absolute;
           top: 50px;
-          width: 91px; }
+          width: 170px; }
           nav .wrapper1200 .ul .dropdown .subNav .li {
             display: none;
             position: relative;
@@ -516,50 +516,81 @@ footer {
 @media only screen and (max-width: 641px) {
   footer .mainFooter .wrapper1200 {
     grid-template-columns: 1fr; } }
-.wrapper1200 h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-top: 20px; }
-.wrapper1200 .cruises .cruise {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  margin: 20px 0; }
-  .wrapper1200 .cruises .cruise .imageContainer {
-    width: 300px; }
-    .wrapper1200 .cruises .cruise .imageContainer img {
-      width: 100%; }
-  .wrapper1200 .cruises .cruise .content {
-    padding: 10px;
-    padding-top: 0px; }
-    .wrapper1200 .cruises .cruise .content h4 {
-      font-size: 25px;
-      font-weight: bold;
-      padding-bottom: 5px;
-      line-height: 1.2; }
-    .wrapper1200 .cruises .cruise .content p {
-      line-height: 1.2; }
-    .wrapper1200 .cruises .cruise .content .btnArea {
-      width: 100%;
-      text-align: right; }
-      .wrapper1200 .cruises .cruise .content .btnArea button {
-        padding: 8px;
-        width: 150px;
-        border-radius: 5px;
-        border: none;
-        background-color: #102E4A;
-        color: white;
-        margin-right: 20px;
-        margin-top: 10px;
-        font-size: 18px; }
+.cruisespage {
+  padding: 10px; }
+  .cruisespage h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px; }
+  .cruisespage .cruises .cruise {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin: 20px 0; }
+    .cruisespage .cruises .cruise .imageContainer {
+      width: 300px; }
+      .cruisespage .cruises .cruise .imageContainer img {
+        width: 100%; }
+    .cruisespage .cruises .cruise .content {
+      padding: 10px;
+      padding-top: 0px; }
+      .cruisespage .cruises .cruise .content h4 {
+        font-size: 25px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        line-height: 1.2; }
+      .cruisespage .cruises .cruise .content p {
+        line-height: 1.2; }
+      .cruisespage .cruises .cruise .content .btnArea {
+        width: 100%;
+        text-align: right; }
+        .cruisespage .cruises .cruise .content .btnArea button {
+          padding: 8px;
+          width: 150px;
+          border-radius: 5px;
+          border: none;
+          background-color: #102E4A;
+          color: white;
+          margin-right: 20px;
+          margin-top: 10px;
+          font-size: 18px; }
 
 @media only screen and (max-width: 641px) {
-  .wrapper1200 .cruises .cruise {
+  .cruisespage .cruises .cruise {
     display: grid;
     grid-template-columns: 1fr; }
-    .wrapper1200 .cruises .cruise .imageContainer {
+    .cruisespage .cruises .cruise .imageContainer {
       width: 100%; }
-    .wrapper1200 .cruises .cruise .content .btnArea button {
-      width: 100%;
-      margin: 10px 0; } }
+    .cruisespage .cruises .cruise .content {
+      padding: 0;
+      margin: 10px 0; }
+      .cruisespage .cruises .cruise .content .btnArea button {
+        width: 100%;
+        margin: 10px 0; } }
+.agent {
+  padding: 10px; }
+  .agent h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px; }
+  .agent .info {
+    line-height: 1.3; }
+    .agent .info img {
+      float: right;
+      border-radius: 5px;
+      padding: 0 0 10px 10px; }
+    .agent .info h4 {
+      font-weight: bold;
+      font-size: 22px;
+      margin-top: 15px; }
+    .agent .info p {
+      font-size: 18px;
+      margin-top: 5px; }
+
+@media only screen and (max-width: 641px) {
+  .agent .info img {
+    float: none;
+    width: 100%;
+    margin-top: 15px;
+    padding: 0; } }
 
 /*# sourceMappingURL=main.css.map */

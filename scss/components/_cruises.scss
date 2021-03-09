@@ -5,7 +5,9 @@
 // $purple: #6A66A3;
 // $darkblue: #102E4A;
 
-.wrapper1200 {
+.cruisespage {
+    padding: 10px;
+
     h2 {
         font-size: 30px;
         font-weight: bold;
@@ -64,7 +66,7 @@
 // $small: 641;
 
 @media only screen and (max-width: $small) {
-    .wrapper1200 .cruises .cruise {
+    .cruisespage .cruises .cruise {
         display: grid;
         grid-template-columns: 1fr;
 
@@ -72,9 +74,13 @@
             width: 100%;
         }
         
-        .content .btnArea button {
-            width: 100%;
+        .content {
+            padding: 0;
             margin: 10px 0;
+            .btnArea button {
+                width: 100%;
+                margin: 10px 0;
+            }   
         }
     }
 }

@@ -25,12 +25,12 @@
     </nav>
     <div class="hiddenNav">
         <div class="ul">
-            <div class="li"><a href="#">Home</a></div>
+            <div class="li"><a href="./index.php">Home</a></div>
             <div class="li"><a href="./cruises.php">Cruises</a></div>
             <div class="li"><a href="#">Agents</a></div>
             <div class="subNav">
-                <div class="li"><a href="#">Item 1</a></div>
-                <div class="li"><a href="#">Item 2</a></div>
+                <div class="li"><a href="./agent1.php">Bill Billsworth</a></div>
+                <div class="li"><a href="./agent2.php">Molly McSally</a></div>
             </div>
             <div class="li"><a href="#">Book</a></div>
         </div>
@@ -48,14 +48,14 @@
     <nav class="normalNav">
         <div class="wrapper1200">
             <div class="ul">
-                <div class="li"><a href="#">Home</a></div>
+                <div class="li"><a href="./index.php">Home</a></div>
                 <div class="li"><a href="./cruises.php">Cruises</a></div>
                 
                 <div class="dropdown">
                     <div class="li"><a href="#">Agents</a></div>
                     <div class="subNav">
-                        <div class="li"><a href="#">Item 1</a></div>
-                        <div class="li"><a href="#">Item 2</a></div>
+                        <div class="li"><a href="./agent1.php">Bill Billsworth</a></div>
+                        <div class="li"><a href="./agent2.php">Molly McSally</a></div>
                     </div>
                 </div>
                 <div class="li"><a href="#">Book</a></div>
