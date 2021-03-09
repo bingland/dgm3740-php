@@ -30,6 +30,9 @@ nav {
             .li { 
                 padding: 12px;
             }
+            .active {
+                background-color: lighten($darkblue, 20%); 
+            }
             .li:hover { 
                 background-color: lighten($darkblue, 20%); 
                 cursor: pointer;
@@ -61,6 +64,9 @@ nav {
                     }
                     .li:hover {
                         background-color: lightblue;
+                    }
+                    .active {
+                        background-color: lighten($darkblue, 20%); 
                     }
                 }
             }
@@ -142,6 +148,10 @@ nav {
     color: white;
     font-size: 23px;
     display: none;
+
+    .active {
+        background-color: lighten($darkblue, 20%); 
+    }
 
     .ul .li {
         padding: 12px;

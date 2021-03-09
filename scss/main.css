@@ -303,6 +303,8 @@ nav {
         text-decoration: none; }
       nav .wrapper1200 .ul .li {
         padding: 12px; }
+      nav .wrapper1200 .ul .active {
+        background-color: #22629e; }
       nav .wrapper1200 .ul .li:hover {
         background-color: #22629e;
         cursor: pointer; }
@@ -330,6 +332,8 @@ nav {
             background-color: #84A9C0; }
           nav .wrapper1200 .ul .dropdown .subNav .li:hover {
             background-color: lightblue; }
+          nav .wrapper1200 .ul .dropdown .subNav .active {
+            background-color: #22629e; }
       nav .wrapper1200 .ul .dropdown:hover div .li {
         display: block; }
     nav .wrapper1200 .navSearch {
@@ -390,6 +394,8 @@ nav {
   color: white;
   font-size: 23px;
   display: none; }
+  .hiddenNav .active {
+    background-color: #22629e; }
   .hiddenNav .ul .li {
     padding: 12px;
     cursor: pointer;
