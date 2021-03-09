@@ -1,4 +1,4 @@
-<?php $ptitle='Cabot Cruises - Cruises'; include '_header.php'; ?>
+<?php $ptitle='Cabot Cruises - Bill Billsworth'; include '_header.php'; ?>
 
 <div class="wrapper1200 agent">
     <h2>Agent Bill Billsworth</h2>
