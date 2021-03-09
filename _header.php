@@ -26,7 +26,7 @@
     <div class="hiddenNav">
         <div class="ul">
             <div class="li"><a href="#">Home</a></div>
-            <div class="li"><a href="#">Cruises</a></div>
+            <div class="li"><a href="./cruises.php">Cruises</a></div>
             <div class="li"><a href="#">Agents</a></div>
             <div class="subNav">
                 <div class="li"><a href="#">Item 1</a></div>
@@ -49,7 +49,7 @@
         <div class="wrapper1200">
             <div class="ul">
                 <div class="li"><a href="#">Home</a></div>
-                <div class="li"><a href="#">Cruises</a></div>
+                <div class="li"><a href="./cruises.php">Cruises</a></div>
                 
                 <div class="dropdown">
                     <div class="li"><a href="#">Agents</a></div>
