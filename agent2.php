@@ -3,7 +3,7 @@
 <div class="wrapper1200 agent">
     <h2>Agent Molly McSally</h2>
     <div class="info">
-        <img src="https://via.placeholder.com/350x400" alt="Agent Photo">
+        <img src="./images/content/agents/molly.jpg" alt="Agent Photo">
 
         <h4>Phone:</h4>
         <p>1-800-765-4321</p>
