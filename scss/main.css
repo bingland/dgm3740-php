@@ -592,5 +592,39 @@ footer {
     width: 100%;
     margin-top: 15px;
     padding: 0; } }
+.book {
+  padding: 0 20px; }
+  .book h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0; }
+  .book form {
+    max-width: 400px; }
+    .book form .formLine {
+      display: block; }
+    .book form label, .book form input, .book form select {
+      display: block; }
+    .book form label {
+      margin: 10px 0 5px 0; }
+    .book form input[type="text"], .book form select {
+      padding: 7px;
+      font-size: 18px;
+      width: 100%; }
+    .book form input[type="submit"] {
+      padding: 8px;
+      font-size: 18px;
+      width: 100%;
+      margin-top: 15px;
+      background-color: #102E4A;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 21px;
+      font-weight: bold; }
+    .book form select:after {
+      display: none; }
+    .book form .requiredText {
+      color: #ff3c3c;
+      font-size: 12px; }
 
 /*# sourceMappingURL=main.css.map */

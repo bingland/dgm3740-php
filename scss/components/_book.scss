@@ -1,0 +1,55 @@
+// global colors
+// $orange: #F69800;
+// $yellow: #F5FF3B;
+// $lightblue: #84A9C0;
+// $purple: #6A66A3;
+// $darkblue: #102E4A;
+
+.book {
+    padding: 0 20px;
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+
+    form {
+        max-width: 400px;
+
+        .formLine {
+            display: block;
+        }
+        label, input, select {
+            display: block;
+        }
+        label {
+            margin: 10px 0 5px 0;
+        }
+        input[type="text"], select {
+            padding: 7px;
+            font-size: 18px;
+            width: 100%;
+        }
+        input[type="submit"] {
+            padding: 8px;
+            font-size: 18px;
+            width: 100%;
+            margin-top: 15px;
+            background-color: $darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 21px;
+            font-weight: bold;
+        }
+        select:after {
+            display: none;
+        }
+
+        .requiredText {
+            color: rgb(255, 60, 60);
+            font-size: 12px;
+        }
+    }
+}

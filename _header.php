@@ -32,7 +32,7 @@
                 <div class="li"><a href="./agent1.php">Bill Billsworth</a></div>
                 <div class="li"><a href="./agent2.php">Molly McSally</a></div>
             </div>
-            <div class="li"><a href="#">Book</a></div>
+            <div class="li"><a href="./book.php">Book</a></div>
         </div>
     </div>
     <header>
@@ -58,7 +58,7 @@
                         <div class="li"><a href="./agent2.php">Molly McSally</a></div>
                     </div>
                 </div>
-                <div class="li"><a href="#">Book</a></div>
+                <div class="li"><a href="./book.php">Book</a></div>
             </div>
             <div class="navSearch">
                 <input type="search" class="searchBar">
