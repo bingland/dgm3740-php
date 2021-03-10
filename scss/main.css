@@ -524,7 +524,7 @@ footer {
     grid-template-columns: 1fr; } }
 .cruisespage {
   padding: 10px; }
-  .cruisespage h2 {
+  .cruisespage h1 {
     font-size: 30px;
     font-weight: bold;
     margin-top: 20px; }
@@ -574,7 +574,7 @@ footer {
         margin: 10px 0; } }
 .agent {
   padding: 10px; }
-  .agent h2 {
+  .agent h1 {
     font-size: 40px;
     font-weight: bold;
     margin-top: 20px; }

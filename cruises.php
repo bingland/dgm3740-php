@@ -1,7 +1,7 @@
 <?php $ptitle='Cabot Cruises - Cruises'; include '_header.php'; ?>
 
 <div class="wrapper1200 cruisespage">
-    <h2>Cruises</h2>
+    <h1>Cruises</h1>
 
     <div class="cruises">
         <div class="cruise">

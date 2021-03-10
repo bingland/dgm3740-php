@@ -1,7 +1,7 @@
 <?php $ptitle='Cabot Cruises - Bill Billsworth'; include '_header.php'; ?>
 
 <div class="wrapper1200 agent">
-    <h2>Agent Bill Billsworth</h2>
+    <h1>Agent Bill Billsworth</h2>
     <div class="info">
         <img src="./images/content/agents/bill.jpg" alt="Agent Photo">
 
