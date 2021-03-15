@@ -682,5 +682,24 @@ footer {
 @media only screen and (max-width: 641px) {
   .destinations .imageArea {
     grid-template-columns: repeat(2, 1fr); } }
+.location {
+  padding: 0 15px; }
+  .location h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px; }
+  .location .address, .location .email, .location .phone {
+    padding: 5px 0;
+    font-size: 20px; }
+    .location .address a, .location .email a, .location .phone a {
+      color: blue; }
+  .location .googleMap {
+    margin-top: 20px; }
+
+@media only screen and (max-width: 641px) {
+  .location .googleMap iframe {
+    width: 100%;
+    height: 500px; } }
 
 /*# sourceMappingURL=main.css.map */
