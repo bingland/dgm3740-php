@@ -172,7 +172,7 @@ nav {
 // $medium: 1007;
 // $small: 641;
 
-@media only screen and (max-width: $small) {
+@media only screen and (max-width: $medium) {
     .normalNav {
         display: none;
     }

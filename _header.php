@@ -33,6 +33,9 @@
                 <div class="li"><a href="./agent2.php">Molly McSally</a></div>
             </div>
             <div class="li"><a href="./book.php">Book</a></div>
+            <div class="li"><a href="./aboutus.php">About Us</a></div>
+            <div class="li"><a href="./destinations.php">Destinations</a></div>
+            <div class="li"><a href="./location.php">Location</a></div>
         </div>
     </div>
     <header>
@@ -59,6 +62,9 @@
                     </div>
                 </div>
                 <div class="li"><a href="./book.php">Book</a></div>
+                <div class="li"><a href="./aboutus.php">About Us</a></div>
+                <div class="li"><a href="./destinations.php">Destinations</a></div>
+                <div class="li"><a href="./location.php">Location</a></div>
             </div>
             <div class="navSearch">
                 <input type="search" class="searchBar">

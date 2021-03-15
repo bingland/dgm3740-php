@@ -406,7 +406,7 @@ nav {
   .hiddenNav .ul .li:hover {
     background-color: #84A9C0; }
 
-@media only screen and (max-width: 641px) {
+@media only screen and (max-width: 1007px) {
   .normalNav {
     display: none; }
 
@@ -633,5 +633,28 @@ footer {
     .book form .requiredText {
       color: #ff3c3c;
       font-size: 12px; }
+
+.aboutus {
+  padding: 0 15px; }
+  .aboutus h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px; }
+  .aboutus .text {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: grey;
+    line-height: 1.2;
+    font-size: 20px;
+    margin-top: 20px; }
+
+@media only screen and (max-width: 1007px) {
+  .aboutus .text {
+    column-count: 2; } }
+@media only screen and (max-width: 641px) {
+  .aboutus .text {
+    column-count: 1; } }
 
 /*# sourceMappingURL=main.css.map */
