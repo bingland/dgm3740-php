@@ -29,7 +29,8 @@ for (let item of menu) {
 }
 
 for (let item of mobileMenu) {
-    console.log(`${currentURL} === ./${pageHREF}`)
+    let currentURL = item.getAttribute('href')
+    // console.log(`${currentURL} === ./${pageHREF}`)
     if (currentURL === './' + pageHREF) {
         item.parentNode.className = 'li active'
         matchfound = true
