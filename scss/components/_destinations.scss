@@ -1,0 +1,43 @@
+.destinations {
+    padding: 0 15px;
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .imageArea {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+        margin-top: 20px;
+
+        .imageBox {
+            max-width: 100%;
+
+            img {
+                width: 100%;
+            }
+            figcaption {
+                padding-top: 5px;
+                line-height: 1.2;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+// screen sizes
+// $medium: 1007;
+// $small: 641;
+
+@media only screen and (max-width: $medium) {
+    .destinations .imageArea {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (max-width: $small) {
+    .destinations .imageArea {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

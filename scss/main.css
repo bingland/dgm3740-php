@@ -639,7 +639,7 @@ footer {
   .aboutus h1 {
     font-size: 30px;
     font-weight: bold;
-    margin-top: 30px; }
+    margin-top: 20px; }
   .aboutus .text {
     column-count: 3;
     column-gap: 40px;
@@ -656,5 +656,31 @@ footer {
 @media only screen and (max-width: 641px) {
   .aboutus .text {
     column-count: 1; } }
+.destinations {
+  padding: 0 15px; }
+  .destinations h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px; }
+  .destinations .imageArea {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin-top: 20px; }
+    .destinations .imageArea .imageBox {
+      max-width: 100%; }
+      .destinations .imageArea .imageBox img {
+        width: 100%; }
+      .destinations .imageArea .imageBox figcaption {
+        padding-top: 5px;
+        line-height: 1.2;
+        font-size: 18px; }
+
+@media only screen and (max-width: 1007px) {
+  .destinations .imageArea {
+    grid-template-columns: repeat(3, 1fr); } }
+@media only screen and (max-width: 641px) {
+  .destinations .imageArea {
+    grid-template-columns: repeat(2, 1fr); } }
 
 /*# sourceMappingURL=main.css.map */
