@@ -1,0 +1,128 @@
+.normalNavWp {
+    background-color: $darkblue;
+    
+    .wrapper1200 {
+        display: grid;
+        grid-template-columns: auto 200px;
+
+        .menu-main-menu-container {
+            background-color: $darkblue;
+        
+            .normalWpNav {
+                margin: 0 auto;
+                display: flex;
+            
+                .menu-item a {
+                    position: relative;
+                    display: block;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 21px;
+                    font-weight: bold;
+                    padding: 10px;
+                }
+                .menu-item a:hover {
+                    background-color: lighten($darkblue, 20%); 
+                }
+                .current_page_item {
+                    background-color: lighten($darkblue, 20%); 
+                }
+        
+                // sub menu
+                .menu-item-60 {
+        
+                    .sub-menu {
+                        display: none;
+                        position: absolute;
+                        z-index: 9999;
+                        background-color: $darkblue;
+
+                    }
+                }
+                .menu-item-60:hover .sub-menu {
+                    display: block;
+                }
+                
+            }
+        }
+        .navSearch {
+            justify-self: right;
+            padding-bottom: 3px;
+            margin-right: 10px;
+        
+            input.searchBar {
+                border-radius: 3px;
+                border: none;
+                height: 32px;
+                padding: 5px;
+                margin: 0;
+            }
+            button {
+                height: 32px;
+                width: 32px;
+                border: none;
+                top: 4px;
+                position: relative;
+                border-radius: 3px;
+            }
+        }
+    }
+}
+
+#hiddenNavWp {
+    background-color: $darkblue;
+    color: white;
+    font-size: 23px;
+    display: none;
+
+    .menu-main-menu-container .hiddenNavWp {
+        .current-menu-item {
+            background-color: lighten($darkblue, 20%); 
+        }
+    
+        li {
+            padding: 12px;
+            cursor: pointer;
+            border-top: 1px solid rgb(63, 63, 66);
+    
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+        a:hover {
+            background-color: $lightblue;
+        }
+        #menu-item-60 {
+            padding: 0;
+
+            a[href="#"] {
+                padding: 12px;
+                display: block;
+                position: relative;
+            }
+            
+            .sub-menu {
+                li {
+                    padding: 12px;
+                }
+            }
+        }
+        #menu-item-60:hover {
+            background-color: $darkblue;
+        }
+    }
+}
+
+// screen sizes
+// $medium: 1007;
+// $small: 641;
+
+@media only screen and (max-width: $medium) {
+    .normalNavWp {
+        display: none;
+    }
+    .mobileNavWp {
+        display: grid;
+    }
+}
