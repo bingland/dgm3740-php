@@ -283,69 +283,69 @@ header {
         color: black;
         text-decoration: none; }
 
-nav {
+.normalNav, .mobileNav {
   background-color: #102E4A;
   color: white;
   font-weight: bold;
   font-size: 23px;
   height: 50px; }
-  nav .wrapper1200 {
+  .normalNav .wrapper1200, .mobileNav .wrapper1200 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%; }
-    nav .wrapper1200 .ul {
+    .normalNav .wrapper1200 .ul, .mobileNav .wrapper1200 .ul {
       display: flex;
       height: 100%;
       position: relative; }
-      nav .wrapper1200 .ul a {
+      .normalNav .wrapper1200 .ul a, .mobileNav .wrapper1200 .ul a {
         color: white;
         text-decoration: none; }
-      nav .wrapper1200 .ul .li {
+      .normalNav .wrapper1200 .ul .li, .mobileNav .wrapper1200 .ul .li {
         padding: 12px; }
-      nav .wrapper1200 .ul .active {
+      .normalNav .wrapper1200 .ul .active, .mobileNav .wrapper1200 .ul .active {
         background-color: #22629e; }
-      nav .wrapper1200 .ul .li:hover {
+      .normalNav .wrapper1200 .ul .li:hover, .mobileNav .wrapper1200 .ul .li:hover {
         background-color: #22629e;
         cursor: pointer; }
-      nav .wrapper1200 .ul .dropdown {
+      .normalNav .wrapper1200 .ul .dropdown, .mobileNav .wrapper1200 .ul .dropdown {
         display: grid;
         grid-template-columns: 1fr;
         position: relative;
         width: 90.95px;
         height: 100%;
         margin: 0; }
-        nav .wrapper1200 .ul .dropdown .li {
+        .normalNav .wrapper1200 .ul .dropdown .li, .mobileNav .wrapper1200 .ul .dropdown .li {
           height: 100%; }
-        nav .wrapper1200 .ul .dropdown .subNav {
+        .normalNav .wrapper1200 .ul .dropdown .subNav, .mobileNav .wrapper1200 .ul .dropdown .subNav {
           display: grid;
           grid-template-columns: 1fr;
           z-index: 99999;
           position: absolute;
           top: 50px;
           width: 170px; }
-          nav .wrapper1200 .ul .dropdown .subNav .li {
+          .normalNav .wrapper1200 .ul .dropdown .subNav .li, .mobileNav .wrapper1200 .ul .dropdown .subNav .li {
             display: none;
             position: relative;
             z-index: 99999;
             height: 50px;
             background-color: #84A9C0; }
-          nav .wrapper1200 .ul .dropdown .subNav .li:hover {
+          .normalNav .wrapper1200 .ul .dropdown .subNav .li:hover, .mobileNav .wrapper1200 .ul .dropdown .subNav .li:hover {
             background-color: lightblue; }
-          nav .wrapper1200 .ul .dropdown .subNav .active {
+          .normalNav .wrapper1200 .ul .dropdown .subNav .active, .mobileNav .wrapper1200 .ul .dropdown .subNav .active {
             background-color: #22629e; }
-      nav .wrapper1200 .ul .dropdown:hover div .li {
+      .normalNav .wrapper1200 .ul .dropdown:hover div .li, .mobileNav .wrapper1200 .ul .dropdown:hover div .li {
         display: block; }
-    nav .wrapper1200 .navSearch {
+    .normalNav .wrapper1200 .navSearch, .mobileNav .wrapper1200 .navSearch {
       padding-bottom: 3px;
       margin-right: 10px; }
-      nav .wrapper1200 .navSearch input.searchBar {
+      .normalNav .wrapper1200 .navSearch input.searchBar, .mobileNav .wrapper1200 .navSearch input.searchBar {
         border-radius: 3px;
         border: none;
         height: 37px;
         padding: 5px;
         margin: 0; }
-      nav .wrapper1200 .navSearch button {
+      .normalNav .wrapper1200 .navSearch button, .mobileNav .wrapper1200 .navSearch button {
         height: 37px;
         width: 37px;
         border: none;
@@ -701,5 +701,89 @@ footer {
   .location .googleMap iframe {
     width: 100%;
     height: 500px; } }
+.normalNavWp {
+  background-color: #102E4A; }
+  .normalNavWp .wrapper1200 {
+    display: grid;
+    grid-template-columns: auto 200px; }
+    .normalNavWp .wrapper1200 .menu-main-menu-container {
+      background-color: #102E4A; }
+      .normalNavWp .wrapper1200 .menu-main-menu-container .normalWpNav {
+        margin: 0 auto;
+        display: flex; }
+        .normalNavWp .wrapper1200 .menu-main-menu-container .normalWpNav .menu-item a {
+          position: relative;
+          display: block;
+          color: white;
+          text-decoration: none;
+          font-size: 21px;
+          font-weight: bold;
+          padding: 10px; }
+        .normalNavWp .wrapper1200 .menu-main-menu-container .normalWpNav .menu-item a:hover {
+          background-color: #22629e; }
+        .normalNavWp .wrapper1200 .menu-main-menu-container .normalWpNav .current_page_item {
+          background-color: #22629e; }
+        .normalNavWp .wrapper1200 .menu-main-menu-container .normalWpNav .menu-item-60 .sub-menu {
+          display: none;
+          position: absolute;
+          z-index: 9999;
+          background-color: #102E4A; }
+        .normalNavWp .wrapper1200 .menu-main-menu-container .normalWpNav .menu-item-60:hover .sub-menu {
+          display: block; }
+    .normalNavWp .wrapper1200 .navSearch {
+      justify-self: right;
+      padding-bottom: 3px;
+      margin-right: 10px; }
+      .normalNavWp .wrapper1200 .navSearch input.searchBar {
+        border-radius: 3px;
+        border: none;
+        height: 32px;
+        padding: 5px;
+        margin: 0; }
+      .normalNavWp .wrapper1200 .navSearch button {
+        height: 32px;
+        width: 32px;
+        border: none;
+        top: 4px;
+        position: relative;
+        border-radius: 3px; }
+
+#hiddenNavWp {
+  background-color: #102E4A;
+  color: white;
+  font-size: 23px;
+  display: none; }
+  #hiddenNavWp .menu-main-menu-container .hiddenNavWp .current-menu-item {
+    background-color: #22629e; }
+  #hiddenNavWp .menu-main-menu-container .hiddenNavWp li {
+    padding: 12px;
+    cursor: pointer;
+    border-top: 1px solid #3f3f42; }
+    #hiddenNavWp .menu-main-menu-container .hiddenNavWp li a {
+      color: white;
+      text-decoration: none; }
+  #hiddenNavWp .menu-main-menu-container .hiddenNavWp a:hover {
+    background-color: #84A9C0; }
+  #hiddenNavWp .menu-main-menu-container .hiddenNavWp #menu-item-60 {
+    padding: 0; }
+    #hiddenNavWp .menu-main-menu-container .hiddenNavWp #menu-item-60 a[href="#"] {
+      padding: 12px;
+      display: block;
+      position: relative; }
+    #hiddenNavWp .menu-main-menu-container .hiddenNavWp #menu-item-60 .sub-menu li {
+      padding: 12px; }
+  #hiddenNavWp .menu-main-menu-container .hiddenNavWp #menu-item-60:hover {
+    background-color: #102E4A; }
+
+@media only screen and (max-width: 1007px) {
+  .normalNavWp {
+    display: none; }
+
+  .mobileNavWp {
+    display: grid; } }
+.serviceArea h1 {
+  font-weight: bold; }
+.serviceArea .serviceAreaImages img {
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
