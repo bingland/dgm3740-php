@@ -1,10 +1,14 @@
 .serviceArea {
+    padding: 10px;
     h1 {
         font-weight: bold;
+        font-size: 30px;
+        padding: 10px 0;
     }
     .serviceAreaImages {
         img {
             width: 100%;
+            margin: 10px 0;
         }
     }
 }

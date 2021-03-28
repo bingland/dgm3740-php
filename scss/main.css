@@ -781,9 +781,14 @@ footer {
 
   .mobileNavWp {
     display: grid; } }
-.serviceArea h1 {
-  font-weight: bold; }
-.serviceArea .serviceAreaImages img {
-  width: 100%; }
+.serviceArea {
+  padding: 10px; }
+  .serviceArea h1 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 0; }
+  .serviceArea .serviceAreaImages img {
+    width: 100%;
+    margin: 10px 0; }
 
 /*# sourceMappingURL=main.css.map */
