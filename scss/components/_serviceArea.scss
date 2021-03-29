@@ -12,3 +12,19 @@
         }
     }
 }
+
+// screen sizes
+// $medium: 1007;
+// $small: 641;
+
+@media only screen and (min-width: 1200px) {
+    .serviceArea .serviceAreaImages img {
+        min-height: 600px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .serviceArea .serviceAreaImages img {
+        min-height: 250px;
+    }
+}

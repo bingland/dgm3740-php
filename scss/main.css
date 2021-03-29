@@ -791,4 +791,11 @@ footer {
     width: 100%;
     margin: 10px 0; }
 
+@media only screen and (min-width: 1200px) {
+  .serviceArea .serviceAreaImages img {
+    min-height: 600px; } }
+@media only screen and (min-width: 500px) {
+  .serviceArea .serviceAreaImages img {
+    min-height: 250px; } }
+
 /*# sourceMappingURL=main.css.map */
